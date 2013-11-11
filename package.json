@@ -1,0 +1,32 @@
+{
+   "name":"NPM-PACKAGE-NAME",
+   "description":"NPM PACKAGE DESCRIPTION",
+   "version":"0.0.1",
+   "homepage":"http://URL-TO-NPM-PACKAGE",
+   "repository":"git://NPM-PACKAGE-GIT-URL",
+   "author":"NPM Author <EMAIL@DOMAIN.COM> (http://URL-FOR-NPM-AUTHOR)",
+   "main":"./index.js",
+   
+   "dependencies":{
+      "request" : "2.27.0",
+      "underscore" : "1.5.2",
+      "underscore.string" :"2.3.3"
+   },
+   "devDependencies":{
+      "mocha":"1.14.0",
+      "should":"2.0.2",
+      "node-fakeweb":"0.0.11"
+   },
+   "scripts":{
+      "test":"make test"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"LICENSE FOR NPM PACKAGE",
+         "url":"http://URL-TO-NPM-PACKAGE-LICENSE"
+      }
+   ]
+}
