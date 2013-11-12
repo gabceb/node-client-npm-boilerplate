@@ -19,6 +19,7 @@ This NPM client boilerplate has everything you need to get started on a NPM pack
 git clone git@github.com:gabceb/node-client-npm-boilerplate.git
 Edit package.json
 Add the correct package name to index.js and test/test.js
+git remote set-url origin GIT-URL-FOR-REPO (If cloned this repo)
 ```
 
 ### Testing
